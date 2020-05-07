@@ -3,7 +3,7 @@
 @section('content')
     <div class="container-fluid col-xs-12 col-md-10 col-md-offset-1 ">
 
-        <mpp-group-details returnurl="/groupfinder"></mpp-group-details>
+        <mpp-event-finder target="https://connect.mygcc.org/portal/event_detail.aspx" isfeatured="true"></mpp-event-finder>
 
     </div>
 @endsection

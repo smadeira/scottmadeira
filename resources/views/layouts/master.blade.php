@@ -16,8 +16,40 @@
 </head>
 
 <body>
+
+    <header class="navbar navbar-default navbar-fixed-top topnav" role="banner">
+        <div class="container topnav">
+            <nav role="navigation">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                        <ul class="nav navbar-nav  navbar-right">
+                            <li><a href="/myhousehold">My Household</a></li>
+                            <li><a href="/visit">Visit</a></li>
+                            <li><a href="/groupfinder">Group Finder</a></li>
+                            <li><a href="/eventfinder">Event Finder</a></li>
+                            <li style="padding-top: 15px;"><mpp-user-login></mpp-user-login></li>
+
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+    </header>
+
     <!-- Content -->
-    <div class="container top80">
+    <div class="container" style="margin-top: 80px;">
         @yield('content')
     </div>
 
