@@ -6,6 +6,7 @@
 
         <mpp-user-login></mpp-user-login>
 
+        <mpp-group-finder targeturl="/groupdetails"></mpp-group-finder>
 
 
     </div>

@@ -12,9 +12,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/groupfinder', function(){
-   return view('widgets.groupfinder');
-});
+Route::get('/groupfinder', function(){ return view('widgets.groups'); });
+Route::get('/groupdetails', function(){ return view('widgets.groupdetails'); });
+
 
 Route::resource('/contacts', 'ContactController');
 Route::resource('/households', 'HouseholdController');
