@@ -29,12 +29,12 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="navbar-collapse-1">
                         <ul class="nav navbar-nav  navbar-right">
+                            <li><a href="/mysubscriptions">My Subscriptions</a></li>
                             <li><a href="/myhousehold">My Household</a></li>
                             <li><a href="/visit">Visit</a></li>
                             <li><a href="/groupfinder">Group Finder</a></li>
