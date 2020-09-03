@@ -41,6 +41,7 @@
                             <li><a href="/visit">Visit</a></li>
                             <li><a href="/groupfinder">Group Finder</a></li>
                             <li><a href="/eventfinder">Event Finder</a></li>
+                            <li><a href="/customform">Custom Form</a></li>
                             <li style="padding-top: 15px;"><mpp-user-login></mpp-user-login></li>
 
                         </ul>
