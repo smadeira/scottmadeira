@@ -38,6 +38,7 @@
                         <ul class="nav navbar-nav  navbar-right">
                             <li><a href="/mysubscriptions">My Subscriptions</a></li>
                             <li><a href="/myhousehold">My Household</a></li>
+                            <li><a href="/mygroups">My Groups</a></li>
                             <li><a href="/visit">Visit</a></li>
                             <li><a href="/groupfinder">Group Finder</a></li>
                             <li><a href="/eventfinder">Event Finder</a></li>
